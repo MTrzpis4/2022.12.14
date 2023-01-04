@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(125deg,#109ef0, #c309f1);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  min-height: 100vh;
+}
+.form {
+    width: 450px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    overflow: hidden;
+  }
+.header{
+    font-family: 'Maven Pro', sans-serif;
+  color: black;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+.field {
+    position: relative;
+    margin: 0 0 1rem;
+    width: 100%;
+    color: black;
+  }
+  .input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #65449B;
+    background-image: url(./1946429.png);
+    background-size: 10px 10px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+
+    padding-left: 30px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .button{
+    color: black;
+    text-align: center;
+    background: linear-gradient(125deg,#109ef0, #c309f1);
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 50px;
+  }
+  
+  .ratio{
+    color: black;
+
+    display: flex;
+    justify-content: center;
+  }
+.label{
+  color:gray;
+  font-size: small;
+}
